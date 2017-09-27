@@ -1,14 +1,14 @@
 import * as types from './ActionTypes';
 
-export function increament() {
+export function increment() {
     return {
-        type: types.INCREAMENT
+        type: types.INCREMENT
     };
 }
 
-export function decreament() {
+export function decrement() {
     return {
-        type: types.DECREAMENT
+        type: types.DECREMENT
     };
 }
 
